@@ -1,0 +1,148 @@
+
+
+header{
+    width: 100%;
+}
+
+.header-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .title a{
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+}
+
+ul{
+    display: flex;
+    li{
+        margin-right: 30px;
+        list-style: none;
+        cursor: pointer;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+    }
+}
+
+
+footer{
+    height: 50px;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #5c3e3e;
+    .footer-container{
+        padding: 15px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.text{
+    font-size: 23px;
+    line-height: 35px;
+    margin: 200px auto;
+    text-align: center;
+    width: 75%;
+}
+
+@media (max-width: 900px){
+    .text{
+        font-size: 20px;
+        line-height: 30px;
+        margin: 150px auto;
+        text-align: center;
+        width: 75%;
+    }
+}
+
+
+  
+
+@media (max-width: 710px){
+    .header-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .title a{
+            font-weight: 600;
+            padding-left: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        li{
+ 
+            cursor: pointer;
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+            }
+        }
+    }
+    .text{
+        font-size: 20px;
+        line-height: 30px;
+        margin: 100px auto;
+        text-align: center;
+        width: 75%;
+    }
+}
+
+@media (max-width: 600px){
+    .header-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .title a{
+            font-weight: 600;
+            padding-left: 10px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .text{
+        font-size: 20px;
+        line-height: 30px;
+        margin: 70px auto;
+        text-align: center;
+        width: 75%;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 10px;
+        }
+
+}
+}
+
+@media (max-width: 500px){
+    .text{
+        font-size: 15px;
+        line-height: 30px;
+        margin: 70px auto;
+        text-align: center;
+        width: 75%;
+    }
+}
